@@ -1,1 +1,1 @@
-# Patrones_Dise-o_Jaava
+# Patrones_Diseno_Jaava
