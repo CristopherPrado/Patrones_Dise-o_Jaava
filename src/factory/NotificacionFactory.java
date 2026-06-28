@@ -9,7 +9,7 @@ public class NotificacionFactory {
             case "sms":
                 return new NotificacionSMS();
             default:
-                throw new IllegalArgumentException("Tipo de notificación no soportado: " + tipo);
+                throw new IllegalArgumentException("Tipo de notificacion no soportado: " + tipo);
         }
     }
 }
