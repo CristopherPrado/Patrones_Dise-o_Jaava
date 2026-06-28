@@ -8,7 +8,6 @@ public class Tarea {
     private final String fechaLimite;
     private final boolean completada;
 
-    // Constructor privado: solo el Builder puede instanciar
     private Tarea(Builder builder) {
         this.titulo      = builder.titulo;
         this.descripcion = builder.descripcion;
@@ -28,7 +27,6 @@ public class Tarea {
                 '}';
     }
 
-    // ── Builder interno ────────────────────────────────────────────────────────
     public static class Builder {
 
         private String titulo;
