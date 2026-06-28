@@ -7,13 +7,11 @@ public class ConfiguracionSistema {
     private String idioma;
     private String tema;
 
-    // Constructor privado para evitar instanciación externa
     private ConfiguracionSistema() {
         this.idioma = "es";
         this.tema = "oscuro";
     }
 
-    // Método estático que devuelve siempre la misma instancia
     public static ConfiguracionSistema getInstancia() {
         if (instancia == null) {
             instancia = new ConfiguracionSistema();
